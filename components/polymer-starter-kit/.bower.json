@@ -1,0 +1,25 @@
+{
+  "name": "polymer-starter-kit",
+  "private": true,
+  "dependencies": {
+    "firebase-element": "GoogleWebComponents/firebase-element#~1.0.8",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0",
+    "page": "visionmedia/page.js#~1.6.3",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+    "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/jake-billings/Jake-Billings",
+  "_release": "1905d0e8b6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1905d0e8b6e1b4fb835b8cf7ec24a949c6ea3e39"
+  },
+  "_source": "git://github.com/jake-billings/Jake-Billings.git",
+  "_target": "master",
+  "_originalSource": "jake-billings/Jake-Billings",
+  "_direct": true
+}
