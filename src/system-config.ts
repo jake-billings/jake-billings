@@ -15,6 +15,20 @@ const packages: any = {
   }
 };
 
+// put the names of any of your Material components here
+const materialPkgs:string[] = [
+  'core',
+  'button',
+  'card',
+];
+
+materialPkgs.forEach((pkg) => {
+  packages[`@angular2-material/${pkg}`] = {main: `${pkg}.js`, defaultExtension: 'js'};
+  map[`@angular2-material/${pkg}`] = `vendor/@angular2-material/${pkg}`;
+});
+
+// console.log(packages);
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
  * Everything underneath this line is managed by the CLI.
@@ -35,6 +49,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/+resume',
+  'app/+gallery',
+  'app/contact-info',
   /** @cli-barrel */
 ];
 
