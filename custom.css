@@ -14,3 +14,10 @@ ul {
 ul li {
     padding-left: 0!important;
 }
+.inline-image {
+    width: 70%;
+}
+td.break {
+    /* Be VERY careful with this, breaks normal words wh_erever */
+    word-break: break-all;
+}
