@@ -1,0 +1,16 @@
+.circle {
+    border-radius: 50%;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0!important;
+}
+ul li {
+    padding-left: 0!important;
+}
