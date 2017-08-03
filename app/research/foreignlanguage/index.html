@@ -5,14 +5,15 @@
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i">
+    <!--build:css css/app.css -->
+    <link rel="stylesheet" href="../../vendor/html5up-story/assets/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="../../vendor/html5up-story/assets/css/main.css"/>
     <link rel="stylesheet" href="../../custom.css"/>
-    <script src="../../vendor/html5up-story/assets/js/jquery.min.js"></script>
-    <script src="../../vendor/html5up-story/assets/js/jquery.scrollex.min.js"></script>
-    <script src="../../vendor/html5up-story/assets/js/jquery.scrolly.min.js"></script>
-    <script src="../../vendor/html5up-story/assets/js/skel.min.js"></script>
-    <script src="../../vendor/html5up-story/assets/js/util.js"></script>
-    <script src="../../vendor/html5up-story/assets/js/main.js"></script>
+    <!-- endbuild -->
+
 
     <script type="application/ld+json">
 {
@@ -25,7 +26,7 @@
   "headline": "Can robots do my homework?",
   "image": {
     "@type": "ImageObject",
-    "url": "https://jakebillings.com/research/foreignlanguage/images/duolingo_3.png",
+    "url": "https://jakebillings.com/research/foreignlanguage/images/duolingo_3.jpg",
     "height": 800,
     "width": 800
   },
@@ -40,7 +41,7 @@
     "name": "Jake Billings",
     "logo": {
         "@type": "ImageObject",
-        "url": "https://jakebillings.com/images/logo.png"
+        "url": "https://jakebillings.com/images/logo.jpg"
     }
   },
   "description": "Recently, my Spanish teacher announced that the class would begin to receive upwards of three Yabla listening activities per week. The class has also been subject to Duolingo quotas, where we are graded on completing hundreds of lessons in a given semester. Deciding to take advantage of some software development experience, I decided to examine if I could complete these assignments without spending vast amounts of time listening to native Spanish speakers repeatedly or typing for hours on end."
@@ -123,7 +124,7 @@
             </p>
         </div>
         <div class="image">
-            <img src="images/duolingo_0.png"/>
+            <img src="images/duolingo_0.jpg"/>
         </div>
     </section>
 
@@ -138,8 +139,8 @@
                     <p>
                         I began be examining the possibility of automating the answering of multiple choice questions.
                     </p>
-                    <img src="images/duolingo_1.png" class="inline-image onscroll-image-fade-in">
-                    <img src="images/duolingo_2.png" class="inline-image onscroll-image-fade-in">
+                    <img src="images/duolingo_1.jpg" class="inline-image onscroll-image-fade-in">
+                    <img src="images/duolingo_2.jpg" class="inline-image onscroll-image-fade-in">
                     <p>
                         Yabla uses a PHP backend and a loose policy of one html page per application view. A detailed
                         analysis of XHR traffic was not necessary as almost all data and code to run the game is
@@ -152,7 +153,7 @@
                         It is worth noting that upon opening the development console, Duolingo advertises that they are
                         hiring software engineers.
                     </p>
-                    <img src="images/duolingo_ad.png" class="inline-image onscroll-image-fade-in">
+                    <img src="images/duolingo_ad.jpg" class="inline-image onscroll-image-fade-in">
                     <p>
                         It is apparent immediately that Duolingo utilizes a Single Page Application (SPA) architecture,
                         so I choose to focus analysis on only XHR requests.
@@ -238,7 +239,7 @@
                         correct solution or a database key. However, the correct answer is not held in obvious fashion
                         in the session information.
                     </p>
-                    <img src="images/duolingo_3.png" class="inline-image onscroll-image-fade-in">
+                    <img src="images/duolingo_3.jpg" class="inline-image onscroll-image-fade-in">
                     <p>
                         The property corresponding to the correct answer may not be immediately apparent from reading
                         this data. A further review of traffic and code makes it far more clear.
@@ -246,11 +247,11 @@
                         In this capture, the user is asked to translate “the bread” to Spanish. The correct answer is
                         “el pan.” The correct answer was provided.
                     </p>
-                    <img src="images/duolingo_4.png" class="inline-image onscroll-content-fade-in">
+                    <img src="images/duolingo_4.jpg" class="inline-image onscroll-content-fade-in">
                     <p>In this capture the user is asked to translate “the water” to Spanish. The correct answer is “el
                         agua.” An incorrect answer of “el pan” was provided.
                     </p>
-                    <img src="images/duolingo_5.png" class="inline-image onscroll-content-fade-in">
+                    <img src="images/duolingo_5.jpg" class="inline-image onscroll-content-fade-in">
                     <p>
                         Notice that the result appears to be graded before being sent to the server. It would appear
                         that Duolingo is processing the grading on the frontend before sending it to the backend for
@@ -268,7 +269,7 @@
                         was presumably done by a build engine to compress the file. The /log_graded_result endpoint is
                         called from the following function logGradedSolution():
                     </p>
-                    <img src="images/duolingo_6.png" class="inline-image onscroll-content-fade-in">
+                    <img src="images/duolingo_6.jpg" class="inline-image onscroll-content-fade-in">
 
                 </div>
             </section>
@@ -300,7 +301,7 @@
             </p>
         </div>
         <div class="image">
-            <img src="images/yabla_0.png"/>
+            <img src="images/yabla_0.jpg"/>
         </div>
     </section>
 
@@ -312,7 +313,7 @@
                     <h3>Analysis of Yabla</h3>
                 </header>
                 <div class="content">
-                    <img src="images/yabla_1.png" class="inline-image onscroll-image-fade-in">
+                    <img src="images/yabla_1.jpg" class="inline-image onscroll-image-fade-in">
                     <p>
                         Yabla uses a PHP backend and a loose policy of one html page per application view. A detailed
                         analysis of XHR traffic was not necessary as almost all data and code to run the game is
@@ -321,7 +322,7 @@
                         top of the page by PHP. A quick search of the first lyric of the song revealed the transcript
                         information in the global javascript variable <code>CAPTIONS</code>.
                     </p>
-                    <img src="images/yabla_2.png" class="inline-image onscroll-image-fade-in">
+                    <img src="images/yabla_2.jpg" class="inline-image onscroll-image-fade-in">
                     <p>
                         As a result, the game can be exploited very easily into giving up the answers to a student or
                         automation tool. I created a proof of concept chrome extension that automatically plays the game
@@ -548,6 +549,17 @@ loop();
         </div>
     </footer>
 </div>
+
+<!-- Analytics -->
+
+<!-- build:js js/app.js -->
+<script src="../../vendor/html5up-story/assets/js/jquery.min.js"></script>
+<script src="../../vendor/html5up-story/assets/js/jquery.scrollex.min.js"></script>
+<script src="../../vendor/html5up-story/assets/js/jquery.scrolly.min.js"></script>
+<script src="../../vendor/html5up-story/assets/js/skel.min.js"></script>
+<script src="../../vendor/html5up-story/assets/js/util.js"></script>
+<script src="../../vendor/html5up-story/assets/js/main.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>
