@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jakebillings
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jakebillings.com
+  * I am jakebillings (https://keybase.io/jakebillings) on keybase.
+  * I have a public key ASAcx6nZQhQe-iPdlUcGwDTk-OzfMABMeUBcKXzsOntE6wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201cc7a9d942141efa23dd954706c034e4f8ecdf30004c79405c297cec3a7b44eb0a",
+      "host": "keybase.io",
+      "kid": "01201cc7a9d942141efa23dd954706c034e4f8ecdf30004c79405c297cec3a7b44eb0a",
+      "uid": "75a6f08ae2bd155556553670348fa619",
+      "username": "jakebillings"
+    },
+    "merkle_root": {
+      "ctime": 1548006812,
+      "hash": "a5e0b3202cd537b4a3bb3eb501c3169381df6bbe87f79ea7d806c8e336dc8374a0afce2669c0c77dcd327567ab2143bec27e94bb88d403d5054e55598a994435",
+      "hash_meta": "357ffd3514b6f4fb3706063bb7e66d5f6626cb5bc094ca5d8fdbfafdfaad2b48",
+      "seqno": 4505193
+    },
+    "service": {
+      "entropy": "TqCL9D82mxKgaVS411+WKda7",
+      "hostname": "jakebillings.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.1"
+  },
+  "ctime": 1548006823,
+  "expire_in": 504576000,
+  "prev": "1f458146110d0b242daa2aeacb8898c43a2b2fd79a99ad63dcfebe67ef6fe652",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgHMep2UIUHvoj3ZVHBsA05Pjs3zAATHlAXCl87Dp7ROsKp3BheWxvYWTESpcCBcQgH0WBRhENCyQtqirqy4iYxDorL9eama1j3P6+Z+9v5lLEINCW+kb0zc/qwO4grOnKJgzD3Lqs+8VO026tdE/kOJFBAgHCo3NpZ8RAZg6/TuJeo5Kp9FDCVFdTEpuzwivGKgLv1Of8rLejCjjoxvhy9W7jrRYmksHKS2FEu9n+kKccxbIR1UqsKBGuBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILfcNLhJV4GTo2q9711ApBmU6N7qibq3mLMbLwBLL47Qo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jakebillings
+
+==================================================================
